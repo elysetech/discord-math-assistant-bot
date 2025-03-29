@@ -1,0 +1,38 @@
+{
+  "name": "discord-math-assistant-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord d'assistant mathématique alimenté par un LLM (Claude ou OpenAI) pour aider les élèves de collège et lycée",
+  "main": "math-assistant-bot.js",
+  "scripts": {
+    "start": "node math-assistant-bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "mathematics",
+    "education",
+    "llm",
+    "openai",
+    "claude"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "axios": "^1.8.4",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elysetech/discord-math-assistant-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elysetech/discord-math-assistant-bot/issues"
+  },
+  "homepage": "https://github.com/elysetech/discord-math-assistant-bot#readme"
+}
